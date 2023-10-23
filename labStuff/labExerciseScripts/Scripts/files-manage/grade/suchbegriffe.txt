@@ -1,0 +1,17 @@
+mkdir Music Pictures Videos
+touch song
+touch snap
+touch film
+ls -l
+mv song 
+mv film
+mv snap
+mkdir frineds family work 
+cd friends
+cp ~/Music/song1.mp3 ~/Music/song2.mp3
+cd ../family
+cd ../work
+rmdir family friends
+rm -r
+cd work
+rmdir work

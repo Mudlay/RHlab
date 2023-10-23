@@ -1,0 +1,26 @@
+mkdir -p ~/Documents/project_plans
+touch ~/Documents/project_plans/{season1,season2}_project_plan.odf
+ls -lR Documents/
+touch tv{1..2}_episode{1..6}.gg
+touch tv_season{1..2}_episode{1..6}.ogg
+touch mystery_chapter{1..8}.odf
+mkdir -p Videos/season{1..2}
+mv tv_season1* Videos/season1
+mkdir -p Documents/my_bestseller/chapters
+mkdir Documents/my_bestseller/{editor,changes,vacation}
+cd Documents/my_bestseller/chapters
+mv mystery_chapter{1..2}.odf ../editor
+mv mystery_chapter{7,8}.odf ../vacation
+cd ~/Videos/season2
+cp *episode1.ogg ~/Documents/my_bestseller/vacation
+cd ~/Documents/my_bestseller/vacation
+cp *episode2.ogg ~/Documents/my_bestseller/vacation
+cd ~/Documents/my_bestseller
+cp chapters/mystery_chapter[56].odf 
+cp mystery_chapter5.odf mystery_chapter5_$(date +%F).odf
+cp mystery_chapter5.odf mystery_chapter5_$(date +%s).odf
+rm mystery*
+rm changes
+rmdir changes
+rm -r vacation
+mkdir ~/Documents/backups

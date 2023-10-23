@@ -1,0 +1,9 @@
+timedatectl list-timezones | grep Jamaica
+sudo timedatectl set-timezone America/Jamaica
+timedatectl
+date -d "-30 minutes"
+journalctl --since
+sudo systemctl restart rsyslo
+logger -p authpriv.alert "Logging test authpriv.alert"
+sudo tail /var/log/auth-errors
+

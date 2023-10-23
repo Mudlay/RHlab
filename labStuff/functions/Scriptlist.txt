@@ -1,0 +1,14 @@
+cli-desktop
+cli-review
+edit-review
+edit-shell
+edit-vim
+files-make
+files-manage
+files-review
+help-info
+help-manual
+help-review
+user-sudo
+users-group-manage
+users-pw-manage

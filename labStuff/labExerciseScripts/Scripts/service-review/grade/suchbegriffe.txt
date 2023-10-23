@@ -1,0 +1,8 @@
+systemctl status psacct
+sudo systemctl start psacct
+systemctl is-active psacct
+sudo systemctl enable psacct
+systemctl is-enabled psacct
+systemctl status rsyslog
+sudo systemctl stop rsyslog
+systemctl is-active rsyslog

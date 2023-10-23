@@ -1,0 +1,3 @@
+tech1
+tech2
+database1

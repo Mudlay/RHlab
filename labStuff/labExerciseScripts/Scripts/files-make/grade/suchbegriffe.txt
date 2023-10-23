@@ -1,0 +1,6 @@
+ls
+ln
+tempdir
+backups
+files
+tmp

@@ -1,0 +1,8 @@
+man gedit
+gedit + manual
+man 1 su 
+ext4
+boot
+zip
+whereis
+-k boot

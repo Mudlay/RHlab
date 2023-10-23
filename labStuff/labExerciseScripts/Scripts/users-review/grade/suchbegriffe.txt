@@ -1,0 +1,7 @@
+sudo groupadd -g 35000 consultants
+sudo vim /etc/sudoers.d/consultants
+sudo useradd -G consultants consultant1
+date -d "+90 days" +%F
+sudo chage -M 15 consultant2
+sudo chage -d 0 consultant1
+

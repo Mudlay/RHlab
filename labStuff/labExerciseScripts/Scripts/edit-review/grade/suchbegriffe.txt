@@ -1,0 +1,5 @@
+ls -al > editing_final_lab.txt 
+vim editing_final_lab.txt 
+cp editing_final_lab.txt 
+editing_final_lab_$(date +%s).txt 
+ls Documents/ | tee -a editing_final_lab.txt

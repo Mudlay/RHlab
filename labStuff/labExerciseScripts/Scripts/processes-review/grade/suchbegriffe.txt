@@ -1,0 +1,7 @@
+mkdir /home/student/bin
+chmod +x /home/student/bin/process101
+cd /home/student/bin
+ls -l /home/student/.config/procps/toprc
+cp process101 process102
+vim process102
+jobs
